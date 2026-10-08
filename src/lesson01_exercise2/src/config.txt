@@ -1,0 +1,7 @@
+# Dedicated bare-metal lab boot configuration; preserve the existing SD config.
+arm_64bit=1
+kernel=kernel8.img
+kernel_old=1
+disable_commandline_tags=1
+enable_uart=1
+init_uart_clock=48000000
